@@ -1,0 +1,4 @@
+DATASET:
+  NAME: "PUG"
+  VARIANT: 'Camera_Pitch'
+  TPT: 'PUG_CPitch'

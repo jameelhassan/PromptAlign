@@ -1,0 +1,51 @@
+DATALOADER:
+  TRAIN_X:
+    BATCH_SIZE: 4
+  TEST:
+    BATCH_SIZE: 1
+  NUM_WORKERS: 12
+
+INPUT:
+  SIZE: (224, 224)
+  INTERPOLATION: "bicubic"
+  PIXEL_MEAN: [0.48145466, 0.4578275, 0.40821073]
+  PIXEL_STD: [0.26862954, 0.26130258, 0.27577711]
+  TRANSFORMS: ["random_resized_crop", "random_flip", "normalize"]
+
+OPTIM:
+  NAME: "sgd"
+  LR: 0.0026
+  MAX_EPOCH: 2
+  LR_SCHEDULER: "cosine"
+  WARMUP_EPOCH: 1
+  WARMUP_TYPE: "constant"
+  WARMUP_CONS_LR: 1e-5
+
+TRAIN:
+  PRINT_FREQ: 20
+
+MODEL:
+  BACKBONE:
+    NAME: "ViT-B/16"
+
+TRAINER:
+  PROMPTALIGN:
+    N_CTX: 2
+    CTX_INIT: "a photo of a"
+    PREC: "fp16"
+    PROMPT_DEPTH: 3
+
+TPT:
+  LOADER: True
+  LR: 4e-2
+  RUN: True
+  ALIGN_LAYER_FROM: 0
+  ALIGN_LAYER_TO: 3
+  TTA_STEPS: 1
+  DISTR_ALIGN: True
+  TPT_THRESHOLD: 0.1
+  ALIGN_THRESHOLD: 0.1
+  TPT_LOSS: True
+  DISTR_LOSS_W: 100.
+  VIS_MEANS: './output/features/ImgNetpre_vis_means.pt' # Path to means of source dataset for vision branch 
+  VIS_VARS: './output/features/ImgNetpre_vis_vars.pt'  # Path to variances of source dataset for vision branch

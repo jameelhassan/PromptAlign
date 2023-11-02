@@ -1,0 +1,4 @@
+DATASET:
+  NAME: "PUG"
+  VARIANT: 'Object_Texture'
+  TPT: 'PUG_OTexture'

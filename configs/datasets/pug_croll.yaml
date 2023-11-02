@@ -1,0 +1,4 @@
+DATASET:
+  NAME: "PUG"
+  VARIANT: 'Camera_Roll'
+  TPT: 'PUG_CRoll'

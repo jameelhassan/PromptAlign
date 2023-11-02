@@ -1,0 +1,4 @@
+DATASET:
+  NAME: "DescribableTextures"
+  TPT: 'PUG_SLight'
+  # TPT: 'dtd'
