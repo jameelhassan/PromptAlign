@@ -16,7 +16,7 @@ If you have some datasets already installed somewhere else, you can create symbo
 
 Datasets list:
 - [ImageNet](#imagenet)
-- [PUG](#pug)
+- [PUG](#pug-imagenet)
 - [Caltech101](#caltech101)
 - [OxfordPets](#oxfordpets)
 - [StanfordCars](#stanfordcars)
