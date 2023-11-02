@@ -13,7 +13,7 @@ Official implementation of the paper "Align Your Prompts: Test-Time Prompting wi
 
 ## Contents
 
-1. [News](#News)
+1. [Updates](#News)
 2. [Highlights](#Highlights)
 3. [Main Contriutions](#Main-Contriutions)
 4. [Installation](#Installation)
@@ -51,25 +51,25 @@ datasets, our method improves by 1.82% compared to the existing state-of-the-art
 <hr>
 
 ## Main Contributions
-* Given only a single test sample, we introduce a distribution alignment strategy for V-L
-models to improve test-time adaptation
-* The proposed strategy formulates a distribution alignment loss that utilizes offline computed
-source data statistics to encourage the test sample token distributions to be aligned with the
-source data token distributions.
-* Since CLIP-pre-training data is not publicly released, we study the statistics of ImageNet
+* **Distribution alignment using a single sample:** Given only a single test sample, we introduce a distribution alignment strategy for V-L
+models to improve test-time adaptation using lightweight prompt learning strategy.
+* **Offline statistics for distribution alignment:** The proposed strategy formulates a distribution alignment loss that utilizes offline computed
+source data statistics to encourage the test sample token distributions to be aligned with the source data token distributions. This harmonically combines
+token distribution alignment with entropy minimization using multi-modal prompt learning.
+* **Proxy Source dataset:** Since CLIP-pre-training data is not publicly released, we study the statistics of ImageNet
 as a possible candidate for the source distribution, and our empirical results show that
 ImageNet is an effective proxy source dataset for large-scale V-L models such as CLIP.
 
 
 ## Installation
-For installation and other package requirements, please follow the instructions detailed in [INSTALL.md](https://github.com/jameelhassan/PromptAlign/blob/main/docs/INSTALL.md)
+For installation and other package requirements, please follow the instructions detailed in [INSTALL.md](https://github.com/jameelhassan/PromptAlign/blob/master/docs/INSTALL.md)
 
 
 ## Data Preparation
-Please follow the instructions at [DATASETS.md](https://github.com/jameelhassan/PromptAlign/blob/main/docs/datasets.md) to prepare all datasets.
+Please follow the instructions at [DATASETS.md](https://github.com/jameelhassan/PromptAlign/blob/master/docs/datasets.md) to prepare all datasets.
 
 ## Run PromptAlign
-Please refer to the [RUN.md](https://github.com/jameelhassan/PromptAlign/blob/main/docs/run.md) for detailed instructions on training, evaluating and reproducing the results using our pre-trained models.
+Please refer to the [RUN.md](https://github.com/jameelhassan/PromptAlign/blob/master/docs/run.md) for detailed instructions on training, evaluating and reproducing the results using our pre-trained models.
 
 ### Results
 
