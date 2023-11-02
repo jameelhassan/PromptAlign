@@ -2,10 +2,7 @@
 
 [Jameel Hassan *](https://jameelhassan.github.io/), [Hanan Gani *](https://hananshafi.github.io/), [Noor Hussein](https://ae.linkedin.com/in/noor-hussein-67566a183), [Uzair Khattak](https://muzairkhattak.github.io/), [Muzammal Naseer](https://muzammal-naseer.com/), [Salman Khan](https://salman-h-khan.github.io/), [Fahad Khan](https://sites.google.com/view/fahadkhans/home)
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2210.07240v1)
-[![Poster](https://img.shields.io/badge/Poster-PDF-8333FF)](https://drive.google.com/file/d/1eywuOkHPbH3bJhC7_kwBvyfI29jxfAkv/view?usp=sharing)
-[![Slides](https://img.shields.io/badge/Slides-PDF-87CEEB)](https://docs.google.com/presentation/d/1Hlw9TdiuiPWmuwf0lJGF0mNEGqp60n-U/edit?usp=sharing&ouid=105985073683824470966&rtpof=true&sd=true) 
-[![Video](https://img.shields.io/badge/Video-Presentation-F9D371)](https://drive.google.com/file/d/1oA0C_AAeGzwQogvsJHyWPE8CGOCQYkFG/view?usp=sharing)
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]()
 
 Official implementation of the paper "Align Your Prompts: Test-Time Prompting with Distribution Alignment for Zero-Shot Generalization".
 
@@ -13,17 +10,20 @@ Official implementation of the paper "Align Your Prompts: Test-Time Prompting wi
 
 ## Contents
 
-1. [Highlights](#Highlights)
-2. [Main Contriutions](#Main-Contriutions)
-3. [Installation](#Installation)
-4. [Datasets](#Datasets)
-5. [Run PromptAlign](#Run-PromptAlign)
-6. [Results](#Results)
-7. [Citation](#Citation)
-8. [Contact](#Contact)
-9. [Acknowledgements](#Acknowledgements)
+1. [News](#News)
+2. [Highlights](#Highlights)
+3. [Main Contriutions](#Main-Contriutions)
+4. [Installation](#Installation)
+5. [Datasets](#Datasets)
+6. [Run PromptAlign](#Run-PromptAlign)
+7. [Results](#Results)
+8. [Citation](#Citation)
+9. [Contact](#Contact)
+10. [Acknowledgements](#Acknowledgements)
 
 <hr>
+
+## Updates
 
 * Code for PrompAlign is released. [November 3, 2023]
 * Our paper is accepted at NeurIPS 2023 [September 22, 2023]
