@@ -32,7 +32,7 @@ Official implementation of the paper "Align Your Prompts: Test-Time Prompting wi
 * Our paper is accepted at NeurIPS 2023 [September 22, 2023]
 
 ## Highlights
-![concept-diagram](https://github.com/jameelhassan/PromptAlign/blob/main/docs/conceptDiagram.jpg)
+![concept-diagram](https://jameelhassan.github.io/promptalign/static/images/conceptdiagram.png)
 
 > **Abstract:** *The promising zero-shot generalization of vision-language models such as CLIP
 has led to their adoption using prompt learning for numerous downstream tasks.
