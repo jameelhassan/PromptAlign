@@ -94,11 +94,19 @@ Please refer to the [RUN.md](https://github.com/jameelhassan/PromptAlign/blob/ma
 ## Citation
 If you use our work, please consider citing: 
 ```
-@inproceedings{hassan2023palign,
+<!--- @inproceedings{hassan2023align,
   author    = {Hassan, Jameel and Gani, Hanan and Hussein, Noor and Khattak, Uzair and Naseer, Muzammal and Khan, Fahad and Khan, Salman},
   title     = {Align Your Prompts: Test-Time Prompting with Distribution Alignment for Zero-Shot Generalization},
   booktitle = {NeurIPS},
   year      = {2023},
+} --->
+@misc{hassan2023align,
+      title={Align Your Prompts: Test-Time Prompting with Distribution Alignment for Zero-Shot Generalization}, 
+      author={Jameel Hassan and Hanan Gani and Noor Hussein and Muhammad Uzair Khattak and Muzammal Naseer and Fahad Shahbaz Khan and Salman Khan},
+      year={2023},
+      eprint={2311.01459},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 
