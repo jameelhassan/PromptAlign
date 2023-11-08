@@ -1,6 +1,6 @@
 # Align Your Prompts: Test-Time Prompting with Distribution Alignment for Zero-Shot Generalization [NeurIPS 2023]
 
-[Jameel Hassan *](https://jameelhassan.github.io/), [Hanan Gani *](https://hananshafi.github.io/), [Noor Hussein](https://ae.linkedin.com/in/noor-hussein-67566a183), [Uzair Khattak](https://muzairkhattak.github.io/), [Muzammal Naseer](https://muzammal-naseer.com/), [Salman Khan](https://salman-h-khan.github.io/), [Fahad Khan](https://sites.google.com/view/fahadkhans/home)
+[Jameel Hassan *](https://jameelhassan.github.io/), [Hanan Gani *](https://hananshafi.github.io/), [Noor Hussein](https://ae.linkedin.com/in/noor-hussein-67566a183), [Uzair Khattak](https://muzairkhattak.github.io/), [Muzammal Naseer](https://muzammal-naseer.com/), [Fahad Khan](https://sites.google.com/view/fahadkhans/home),  [Salman Khan](https://salman-h-khan.github.io/)
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2311.01459)
 [![Poster](https://img.shields.io/badge/Poster-PDF-8333FF)]()
