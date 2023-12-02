@@ -3,7 +3,7 @@
 [Jameel Hassan *](https://jameelhassan.github.io/), [Hanan Gani *](https://hananshafi.github.io/), [Noor Hussein](https://ae.linkedin.com/in/noor-hussein-67566a183), [Uzair Khattak](https://muzairkhattak.github.io/), [Muzammal Naseer](https://muzammal-naseer.com/), [Fahad Khan](https://sites.google.com/view/fahadkhans/home),  [Salman Khan](https://salman-h-khan.github.io/)
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2311.01459)
-[![Poster](https://img.shields.io/badge/Poster-PDF-8333FF)](https://github.com/jameelhassan/PromptAlign/blob/master/docs/poster.png)
+[![Poster](https://img.shields.io/badge/Poster-PDF-8333FF)](https://jameelhassan.github.io/promptalign/static/images/poster.png)
 [![Slides](https://img.shields.io/badge/Slides-PDF-87CEEB)](https://github.com/jameelhassan/PromptAlign/blob/master/docs/slides.pdf) 
 [![Video](https://img.shields.io/badge/Video-Presentation-F9D371)](https://recorder-v3.slideslive.com/#/share?share=89606&s=2a435db5-fe74-47ff-91fc-f904a679f44d)
 
