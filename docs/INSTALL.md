@@ -15,6 +15,21 @@ conda activate promptalign
 pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
+* #### Install dassl library.
+```bash
+# Instructions borrowed from https://github.com/KaiyangZhou/Dassl.pytorch#installation
+
+# Clone this repo
+git clone https://github.com/KaiyangZhou/Dassl.pytorch.git
+cd Dassl.pytorch/
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Install this library (no need to re-build if the source code is modified)
+python setup.py develop
+cd ..
+```
 
 * #### Clone PromptAlign code repository and install requirements
 ```bash
