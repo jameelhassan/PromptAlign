@@ -15,7 +15,7 @@ Official implementation of the paper "Align Your Prompts: Test-Time Prompting wi
 
 1. [Updates](#News)
 2. [Highlights](#Highlights)
-3. [Main Contriutions](#Main-Contriutions)
+3. [Main Contributions](#Main-Contributions)
 4. [Installation](#Installation)
 5. [Datasets](#Datasets)
 6. [Run PromptAlign](#Run-PromptAlign)
